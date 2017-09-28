@@ -1,16 +1,11 @@
-describe('Local Fonts', function(){
+describe('Scrolling', function(){
 
-    it('should visit all the hashes', function(){
+    it('should find the element', function(){
 
-        cy.visit('index.html#one');
+        cy.visit('index.html');
 
-        cy.visit('index.html#two');
-        
-        cy.visit('index.html#three');
-
-        cy.get('#visited')
-          .should('contain', 'one')
-          .should('contain', 'two')
-          .should('contain', 'three')
+        cy.get('ul')
+          .contains('Test 28')
+          .should('be.visible');
     })
 });
