@@ -219,9 +219,9 @@ cryptiles@2.x.x:
   dependencies:
     boom "2.x.x"
 
-cypress@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-0.20.0.tgz#d1211d103cf7bc326110dbd3c20ceb7279d08677"
+cypress@^0.20.1:
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-0.20.1.tgz#5bbf1cdb2ed2e4c342f98cea8085852c3bc0ea0c"
   dependencies:
     "@cypress/listr-verbose-renderer" "0.4.1"
     "@cypress/xvfb" "1.0.4"
